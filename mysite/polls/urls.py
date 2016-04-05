@@ -10,5 +10,7 @@ urlpatterns = patterns('',
     url(r'^hello/$',views.hello),
     url(r'^current_url/$',views.current_url_view_good),
     url(r'^meta_test/$',views.meta_test),
-    url(r'^mytemplate/$',views.mate_template)
+    url(r'^mytemplate/$',views.mate_template),
+    url(r'^search_form/$',views.search_form),
+    url(r'^search/$',views.search),
 )

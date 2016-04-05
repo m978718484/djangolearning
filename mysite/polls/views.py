@@ -56,3 +56,13 @@ def meta_test(request):
 def mate_template(request):
     values = request.META.items()
     return render_to_response('mytemplate.html',{'values':values})
+
+def search_form(request):
+    return render_to_response('search_form.html')
+
+def search(request):
+    if 'q' in request.GET:
+        message = 'You searched for :%r'%request.GET['q']
+    else:
+        message = 'You submit an empty form.'
+    return HttpResponse(message)
