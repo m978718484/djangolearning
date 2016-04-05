@@ -1,2 +1,2 @@
 # djangolearning
-learning django
+just for learning django
