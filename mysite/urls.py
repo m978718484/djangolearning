@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     # (r'^mysite/', include('mysite.foo.urls')),
     #url(r'^$','polls.views.index' , name='index'),
     url(r'^polls/',include('polls.urls')),
+    url(r'^books/',include('books.urls')),
     url(r'^admin/',admin.site.urls),
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
