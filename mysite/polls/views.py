@@ -65,3 +65,5 @@ def search(request):
         q = request.GET['q']
         books = Book.objects.filter(title_icontains=q)
         return render_to_response('search_results.html', {'books': books,'query':q})
+    else:
+       return HttpResponse('error')
