@@ -11,8 +11,8 @@ urlpatterns = patterns('',
     url(r'^polls/',include('polls.urls')),
     url(r'^books/',include('books.urls')),
     url(r'^admin/',admin.site.urls),
-    url(r'^contact_form/',contactviews.contact_form),
-    url(r'^contact/',contactviews.contact),
+    url(r'^contact_form/','contact.views.contact_form'),
+    url(r'^contact/','contact.views.contact'),
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     # Uncomment the next line to enable the admin:

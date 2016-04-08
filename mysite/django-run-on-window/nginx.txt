@@ -1,0 +1,6 @@
+补充一点windwos下nginx操作的命令（来自官方文档）
+
+    nginx -s stop quick exit
+    nginx -s quit graceful quit
+    nginx -s reload changing configuration, starting a new worker, quitting an old worker gracefully
+    nginx -s reopen reopening log files

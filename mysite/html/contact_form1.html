@@ -25,11 +25,31 @@
 		</p>
 	{% endif %}
 
-	<form action="" method="post">
+<!-- 	<form action="" method="post">
        <table>
        		{{form.as_table}}
        </table>
        <input type='submit' value='Submit'>
+    </form>
+ -->
+
+    <form action = '' method="post">
+    	<div class='field'>
+    		{{form.subject.errors}}
+    		<label for='id_subject'>Subject:</label>
+    		{{form.subject}}
+    	</div>
+    	<div class='field'>
+    		{{form.email.errors}}
+    		<label for='id_email'>E-mail:</label>
+    		{{form.email}}
+    	</div>
+    	<div class='field'>
+    		{{form.message.errors}}
+    		<label for='id_message'>Message:</label>
+    		{{form.message}}
+    	</div>
+    	<input type = 'submit' value="Submit">
     </form>
 </body>
 </html>
