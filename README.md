@@ -5,3 +5,6 @@ https://curl.haxx.se/download.html
 http://djangobook.py3k.cn/2.0/
 http://www.efeihu.com/Product/2050222000010.html
 http://blog.csdn.net/adrianfeng/article/details/5864510
+
+Python 爬虫的工具列表 附Github代码下载链接
+http://www.36dsj.com/archives/36417
