@@ -8,3 +8,6 @@ http://blog.csdn.net/adrianfeng/article/details/5864510
 
 Python 爬虫的工具列表 附Github代码下载链接
 http://www.36dsj.com/archives/36417
+
+Python数据分析学习路径图(120天Get新技能)
+http://www.36dsj.com/archives/48460
